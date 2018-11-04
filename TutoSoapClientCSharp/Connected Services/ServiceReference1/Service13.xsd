@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TutoSoapWCFCSharp.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TutoSoapWCFCSharp.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Race">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Animals" nillable="true" type="tns:ArrayOfAnimal" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RaceId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Race" nillable="true" type="tns:Race" />
+  <xs:complexType name="ArrayOfAnimal">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Animal" nillable="true" type="tns:Animal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnimal" nillable="true" type="tns:ArrayOfAnimal" />
+  <xs:complexType name="Animal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AnimalId" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="race" nillable="true" type="tns:Race" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Animal" nillable="true" type="tns:Animal" />
+</xs:schema>

@@ -1,0 +1,7 @@
+C:\Users\P5QDTurbo-W7\source\repos\TutoSoapClientCSharp\TutoSoapClientCSharp\bin\Debug\TutoSoapClientCSharp.exe.config
+C:\Users\P5QDTurbo-W7\source\repos\TutoSoapClientCSharp\TutoSoapClientCSharp\bin\Debug\TutoSoapClientCSharp.exe
+C:\Users\P5QDTurbo-W7\source\repos\TutoSoapClientCSharp\TutoSoapClientCSharp\bin\Debug\TutoSoapClientCSharp.pdb
+C:\Users\P5QDTurbo-W7\source\repos\TutoSoapClientCSharp\TutoSoapClientCSharp\obj\Debug\TutoSoapClientCSharp.csprojAssemblyReference.cache
+C:\Users\P5QDTurbo-W7\source\repos\TutoSoapClientCSharp\TutoSoapClientCSharp\obj\Debug\TutoSoapClientCSharp.csproj.CoreCompileInputs.cache
+C:\Users\P5QDTurbo-W7\source\repos\TutoSoapClientCSharp\TutoSoapClientCSharp\obj\Debug\TutoSoapClientCSharp.exe
+C:\Users\P5QDTurbo-W7\source\repos\TutoSoapClientCSharp\TutoSoapClientCSharp\obj\Debug\TutoSoapClientCSharp.pdb
